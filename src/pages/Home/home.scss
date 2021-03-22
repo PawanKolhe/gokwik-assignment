@@ -1,18 +1,45 @@
-.Home_Background {
+.Home_background {
   width: 100%;
-  height: 250px;
+  height: 270px;
   background: rgb(122,96,46);
   background: linear-gradient(90deg, var(--background-light-color) 0%, var(--background-dark-color) 100%);
   position: absolute;
   z-index: -100;
 }
 
-.Home_Logo {
-  width: 150px;
-  margin: 0 auto;
-  padding-top: 30px;
+.Home_mainText {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
 
+.SuccessText {
+  color: #00992E;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.SuccessContent {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 60px;
+}
+
+.SuccessContent_item {
+  position: relative;
+
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.4rem;
+  }
   img {
-    width: 100%;
+    position: absolute;
+    width: 32px;
+    top: 0;
+    right: calc(100% + 22px);
   }
 }

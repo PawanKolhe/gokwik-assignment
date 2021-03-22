@@ -1,0 +1,42 @@
+.Input {
+  position: relative;
+  margin-bottom: 30px;
+
+  input {
+    border: 1px solid #EEEEEE;
+    outline: none;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #F5F6F9;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--primary-font-family);
+
+    &::placeholder {
+      color: #C9C9C9;
+    }
+  }
+}
+
+.Input_infoText {
+  width: 100%;
+  font-size: 0.75rem;
+  margin: 10px 0;
+  color: #333333;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Input_error {
+  width: 100%;
+  font-size: 0.75rem;
+  margin: 10px 0;
+  color: #CE0000;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
