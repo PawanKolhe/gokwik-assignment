@@ -18,3 +18,11 @@ npm install
 ```bash
 npm run start
 ```
+
+## Screenshots
+
+![Image1](https://i.ibb.co/3NXWJzM/2.png)
+
+![Image2](https://i.ibb.co/drsrhNh/3.png)
+
+![Image3](https://i.ibb.co/SVQJsY8/1.png)
