@@ -1,5 +1,9 @@
 # GoKwik Assignment
 
+## Hosted on Netlify
+
+https://gokwik.netlify.app/
+
 ## Features
 
 - Responsive
