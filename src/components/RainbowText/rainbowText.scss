@@ -1,0 +1,11 @@
+.RainbowText {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.RainbowText_Text {
+  background: -webkit-linear-gradient(45deg, #C703CD, #FC2772 40%, #FECA02 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
