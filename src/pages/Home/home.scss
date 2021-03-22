@@ -5,6 +5,22 @@
   background: linear-gradient(90deg, var(--background-light-color) 0%, var(--background-dark-color) 100%);
   position: absolute;
   z-index: -100;
+
+  img {
+    position: absolute;
+    opacity: 0.05;
+    width: 150px;
+  }
+}
+
+.Home_background-image-1 {
+  bottom: 50px;
+  left: 50px;
+}
+.Home_background-image-2 {
+  bottom: 50px;
+  right: 50px;
+  transform: scaleX(-1);
 }
 
 .Home_mainText {
@@ -41,5 +57,11 @@
     width: 32px;
     top: 0;
     right: calc(100% + 22px);
+  }
+}
+
+@media (max-width: 900px) {
+  .Home_background img {
+    display: none;
   }
 }

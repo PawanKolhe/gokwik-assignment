@@ -9,6 +9,7 @@ import './home.scss'
 import whatsappIcon from '../../assets/images/whatsapp.svg'
 import giftboxIcon from '../../assets/images/gift-box.svg'
 import cancelIcon from '../../assets/images/close.svg'
+import partyIcon from '../../assets/images/confetti.svg'
 
 const companyName = 'Man Matters';
 const infoTextIntialState = `Enter the same number used on ${companyName}`;
@@ -35,7 +36,10 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <div className="Home_background"></div>
+      <div className="Home_background">
+        <img className="Home_background-image-1" src={partyIcon} alt="Background Image" />
+        <img className="Home_background-image-2" src={partyIcon} alt="Background Image" />
+      </div>
 
       <div className="container">
         <Header />
