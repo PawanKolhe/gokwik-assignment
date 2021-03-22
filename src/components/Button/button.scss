@@ -1,0 +1,20 @@
+.Button {
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--active-button-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(var(--active-button-color-rgb), 0.9);
+  }
+
+  &:disabled {
+    background-color: var(--disabled-button-color);
+  }
+}
