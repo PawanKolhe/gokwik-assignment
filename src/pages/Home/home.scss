@@ -1,0 +1,18 @@
+.Home_Background {
+  width: 100%;
+  height: 250px;
+  background: rgb(122,96,46);
+  background: linear-gradient(90deg, var(--background-light-color) 0%, var(--background-dark-color) 100%);
+  position: absolute;
+  z-index: -100;
+}
+
+.Home_Logo {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  img {
+    width: 100%;
+  }
+}
