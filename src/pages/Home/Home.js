@@ -76,7 +76,7 @@ const Home = () => {
                   setPhone(event.target.value);
                 }}
               />
-              <Button style={{marginTop: '15px'}} disabled={!inputValid}>Wow! Get my Paytm Gift Card</Button>
+              <Button style={{marginTop: '45px'}} disabled={!inputValid}>Wow! Get my Paytm Gift Card</Button>
             </form>
           </>
           :

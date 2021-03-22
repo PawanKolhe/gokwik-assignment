@@ -1,7 +1,7 @@
 .Button {
   border: none;
   outline: none;
-  padding: 20px 40px;
+  padding: 20px 35px 20px 40px;
   border-radius: 50px;
   text-align: center;
   color: #ffffff;
@@ -9,6 +9,18 @@
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: rgba(0, 159, 227, 0.5) 0px 15px 29px -15px;
+  font: var(--primary-font-family);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  img {
+    height: 14px;
+    margin-left: 10px;
+  }
 
   &:hover {
     background-color: rgba(var(--active-button-color-rgb), 0.9);
@@ -16,5 +28,6 @@
 
   &:disabled {
     background-color: var(--disabled-button-color);
+    box-shadow: unset;
   }
 }
