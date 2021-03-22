@@ -31,3 +31,9 @@
     box-shadow: unset;
   }
 }
+
+@media (max-width: 400px) {
+  .Button {
+    width: 100%;
+  }
+}

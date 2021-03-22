@@ -40,3 +40,9 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (max-width: 400px) {
+  .Input input {
+    width: 100%;
+  }
+}
