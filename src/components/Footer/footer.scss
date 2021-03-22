@@ -1,0 +1,18 @@
+.Footer {
+  padding: 40px 10px 60px;
+}
+
+.Footer_text {
+  color: #C9C9C9;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 80px;
+    margin-left: 5px;
+  }
+}
